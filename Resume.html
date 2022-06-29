@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-content{
+            height: 1000px;
+            display: grid;
+            grid-template-columns: 300px 1000px;
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        .left-section{
+            /* display: grid;
+            grid-template-columns: 300px; */
+            background-color: wheat;
+        }
+
+        .right-section{
+            /* display: grid;
+            grid-template-columns: 300px, 1000px; */
+            background-color: aqua;
+            
+        }
+
+        .left-content{
+            padding: 1rem;
+        }
+
+        .profile-image{
+            display: block;
+           
+            margin: auto;
+            
+            width: 60%;
+            padding: 1rem;
+        }
+
+        img{
+            display: block;
+            text-align: center;
+            margin: auto;
+            border: 5px white solid;
+            border-radius: 30%;
+            width: 100%;
+        }
+
+        .name{
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.8rem;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.02px;
+        }
+
+        .designation{
+            font-size: 1rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+
+        .description{
+            font-size: 0.75rem;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .icon{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            border: none;
+        }
+
+        .media{
+            height: 2rem;
+            width: 2rem;
+            border: none;
+
+        }
+        .skills{
+            font-size: 0.75rem;
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+
+        .skill-name{
+            font-size: 0.65rem;
+            font-weight: 0.65rem;
+            text-align: left;
+            text-transform: uppercase;
+            padding-bottom: 0.5rem;
+        }
+
+        .progress-bar{
+            border: 1px white solid;
+            height: 4px;
+            background-color: white;
+        }
+
+        .right-main-content{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+        .right-title{
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 700;
+            padding: 0.5rem;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <main class="main-content">
+        <section class="left-section">
+            <div class="left-content">
+                <div class="profile-details">
+                    <div class="profile-image">
+                        <img src="https://pps.whatsapp.net/v/t61.24694-24/181659053_296865012277276_682591630955593399_n.jpg?ccb=11-4&oh=34cc9159de0f89b8b583257af87302fb&oe=62CD3176">
+                    </div>
+                    <div class="name">Aishwarya Chaudhari</div>
+                    <div class="designation">SDE-1</div>
+                    <hr>
+                    <div class="description">MERN STACK DEVELOPER | FULL STACK DEVELOPER | WEB DEVELOPER |  </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="social-media">
+                            <li class="icon">
+                                <a href="https://www.linkedin.com/in/aishwarya-chaudhari-979250194/"><img class="media" src="https://cdn-icons.flaticon.com/png/128/3536/premium/3536505.png?token=exp=1656497440~hmac=a4ec7d9b82064de8ae296779878f2e4d" alt="linkedin" title="LinkedIn"></a>
+                                <a href="https://www.instagram.com/sai_2205/"><img class="media" src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="instagram" title="instagram"></a>
+                                <a href="https://github.com/knowtoit"><img class="media" src="https://cdn-icons.flaticon.com/png/128/3291/premium/3291695.png?token=exp=1656498191~hmac=2f67e6bac1dba2f16a94d82c315055da" alt="github" title="github"></a>
+                                <a href="https://twitter.com/Sai_3196"><img class="media" src="https://cdn-icons.flaticon.com/png/128/4494/premium/4494477.png?token=exp=1656498759~hmac=4d146b030a4d8bd468e6ab2d9adf24fd"></a>
+                          </li>
+                        </div>
+                        <div class="skills">
+                            <h2>Skills</h2>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <h3>html</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 80%;"> </div>
+
+                            <div class="skill-name">
+                                <h3>css</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 70%;"> </div>
+
+                            <div class="skill-name">
+                                <h3>JAVA</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 60%;"> </div>
+
+                            <div class="skill-name">
+                                <h3>JAVASCRIPT</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 50%;"> </div>
+
+                            <div class="skill-name">
+                                <h3>React</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 40%;"> </div>
+
+                            <div class="skill-name">
+                                <h3>Node JS</h3>
+                            </div>
+                            <div class="progress-bar" style="width: 30%;"> </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="right-section">
+            <div class="right-main-content">
+                <div>
+                    <h1 class="right-title">ABOUT ME</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos voluptatem rem, blanditiis eligendi ex atque voluptate dolorum impedit quo natus? Ipsam sit neque ipsa adipisci tempora molestiae accusantium veniam soluta?</p>
+                </div>
+                <div>
+                    <h1 class="right-title">Education</h1>
+                    <h3>MSc PHYSICS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, suscipit. Voluptatibus modi totam laudantium quas ipsum voluptatum pariatur possimus eos officia accusantium eum tenetur minus et hic, sunt magni sed.</p>
+                    <h3>BSc PHYSICS</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt harum sequi at optio explicabo possimus voluptates odio veritatis in illo, officia quisquam illum consequatur rem magnam, nam alias, necessitatibus soluta.</p>
+                </div>
+                <div>
+                    <h1 class="right-title">experience</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nam nihil officiis reprehenderit, illum optio quo minima! Debitis provident sit consectetur, natus vero eum dolorum quod earum nostrum. Earum, debitis.</p>
+                </div>
+                <div>
+                    <h1 class="right-title">Projects</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptate, nesciunt qui ullam et quis facilis fugit laborum? Nulla quam distinctio ut itaque sint quo deserunt esse eligendi ipsum? Praesentium!</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
